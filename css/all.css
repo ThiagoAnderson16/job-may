@@ -328,7 +328,8 @@
 }
 
 .home .hero {
-    padding: 64px 0 20px
+    padding: 64px 0 20px;
+
 }
 
 .home .hero p {
@@ -1851,7 +1852,7 @@ a:focus {
     right: 0;
     bottom: 0;
     z-index: 1;
-    background-image: url(../images/pattern-2.png)
+    background-image: url(../assets/web/pattern-2.png)
 }
 
 #header.patterned .logo {
@@ -3633,4 +3634,73 @@ a:focus {
     position: absolute;
     margin-left: -25%;
     margin-top: -10%;
+}
+
+.static-hero{
+    padding: 60px 0px 40px 0px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.join-webnar{
+    padding: 5% 20% 7% 20%;
+}
+
+.healthcare-footer{
+    margin-top: 5%;
+}
+
+.btn-join-webnar{
+    position:absolute;
+    top:80%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+
+.webnar{
+    padding-left: 5%;
+}
+
+.healthcare-section p{
+    margin-top: -2%;
+}
+
+.healthcare-graphic-img{
+    width: 100%;
+}
+
+@media (max-width: 1125px) {
+    .healthcar-avatar{
+        margin-left: -22%;
+    }
+}
+
+@media (max-width: 1055px) {
+    .healthcar-avatar{
+        margin-left: -20%;
+    }
+}
+
+@media (max-width: 991px) {
+    .healthcar-avatar{
+        margin-left: -29%;
+    }
+}
+
+@media (max-width: 900px) {
+    .healthcar-avatar{
+        margin-left: -26%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 850px) {
+    .healthcar-avatar{
+        margin-left: -26%;
+    }
+}
+
+.sequence-menu{
+    margin-top: -5%;    
 }
