@@ -3674,6 +3674,10 @@ a:focus {
     .healthcar-avatar{
         margin-left: -22%;
     }
+    
+    .sequence-menu{
+        left: 10% !important;
+    }
 }
 
 @media (max-width: 1055px) {
@@ -3694,13 +3698,44 @@ a:focus {
     }
 }
 
+.sequence-menu{
+    position: absolute;
+    top: 4%; 
+    left: 15%;
+}
+
+.sequence-menu a{
+    text-decoration: underline;
+    color: #A362BE;
+}
+
 /* MOBILE */
 @media (max-width: 850px) {
+
+    body{
+        font-size: 20px;
+    }
+
     .healthcar-avatar{
         margin-left: -26%;
     }
+
+    .nav-opener{
+        display: none;
+    }
+
+    .sequence-menu{
+        position: absolute;
+        top: 2%; 
+        left: 3% !important;
+    }
+
+    .healthcare-graphic-img{
+        margin-top: 10%;
+        width: 60%;
+        position:relative;
+        left:20%;
+        
+    }
 }
 
-.sequence-menu{
-    margin-top: -5%;    
-}
