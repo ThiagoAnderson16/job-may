@@ -3716,6 +3716,21 @@ a:focus {
         font-size: 20px;
     }
 
+    p{
+        font-size: 20px;
+    }
+
+    .hero{
+        font-weight: 200px !important;
+        background-color: white;
+        box-shadow: none;
+        line-height: 22px;
+    }
+
+    .webnar{
+        @text-center;
+    }
+
     .healthcar-avatar{
         margin-left: -26%;
     }
