@@ -3670,6 +3670,10 @@ a:focus {
     width: 100%;
 }
 
+.sequence-menu a{
+    cursor: pointer; 
+}
+
 @media (max-width: 1125px) {
     .healthcar-avatar{
         margin-left: -22%;
@@ -3699,9 +3703,7 @@ a:focus {
 }
 
 .sequence-menu{
-    position: absolute;
-    top: 4%; 
-    left: 15%;
+    margin-top: -80px;
 }
 
 .sequence-menu a{
@@ -3709,30 +3711,98 @@ a:focus {
     color: #A362BE;
 }
 
+@media (max-width: 767px) {
+       .healthcar-avatar{
+        
+        top:40% !important;
+        
+    }
+
+}
+
+@media (max-width: 441px) {
+    .healthcar-avatar{
+        left: 12% !important;
+        margin-left: -120px;
+        top: 100px !important;
+    }
+
+}
+
+@media (max-width: 515px) {
+    .healthcar-avatar{
+        left: 12% !important;
+        margin-left: -130px;
+        top: 100px !important;
+    }
+
+}
+
+
+@media (max-width: 620px) {
+    .healthcar-avatar{
+        left: 62% !important;
+        top: 100px !important;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .healthcar-avatar{
+        left: 50% !important;
+        margin-left: -70px;
+        top: 100px !important;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .healthcar-avatar{
+        left: 50% !important;
+        top: 100px !important;
+    }
+
+}
+
 /* MOBILE */
 @media (max-width: 850px) {
 
     body{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     p{
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .avatar1{
+        
+        margin-top: -200px !important;
     }
 
     .hero{
         font-weight: 200px !important;
-        background-color: white;
         box-shadow: none;
         line-height: 22px;
     }
 
-    .webnar{
-        @text-center;
+    .digital{
+        background: white;
+        margin-bottom: 10px !important;
+        padding-top: 0px;
     }
 
-    .healthcar-avatar{
-        margin-left: -26%;
+    .webnar{
+        text-align: center;
+    }
+
+    .webnar h1{
+        font-size: 22px;
+    }
+
+    .webnar h4{
+        margin-top: 25px;
+        font-size: 18px;
     }
 
     .nav-opener{
@@ -3741,16 +3811,119 @@ a:focus {
 
     .sequence-menu{
         position: absolute;
-        top: 2%; 
+        top: 150px; 
         left: 3% !important;
     }
 
     .healthcare-graphic-img{
-        margin-top: 10%;
+        margin-top: 15%;
         width: 60%;
         position:relative;
-        left:20%;
+        left:20%;    
+    }
+
+    .healthcare-intro h2{
+        font-size: 28px;   
+        line-height: 35px;
+        margin-bottom: 100px;
+    }
+
+    .healthcar-avatar{
+        position: absolute;
+        margin-top: -190px;
         
+        top: 110px;
+        height: 150px;
+        
+        position:absolute;
+        top:35%;
+        left:65%;
+    }
+
+    .healthcar-name, .legend{
+        text-align: center;
+    }
+
+    .legend{
+        margin-top: -13px !important;
+    }
+
+    .healthcare-section{
+        line-height: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .static-hero{
+        border-radius: 10px;
+        margin-bottom:90px;
+    }
+
+    .footer-resources{
+        display: none;
+    }
+
+    .menu-footer{
+        margin-left: 0px;
+    }
+
+    .btn-join-webnar{
+      position:fixed;
+
+      line-height:30px;
+      height: 35px;
+      width: 95%;
+      left: 60px;
+
+      margin-top: 68px;
+      padding-top: 0px;
+
+    }
+
+    .button-desktop{
+        display: none;
+    }
+
+    .button-mobile{
+        display: table !important;
+    }
+
+    .div-button-mobile{
+        background: white;
+        position:fixed;
+      
+      width: 100%;
+      height: 10%;
+      left: 0px;
+      bottom: 0px ;
+    }
+
+    .healthcare-footer{
+        padding-top: 30px;
+    }
+
+    .join-webnar h4{
+        font-size: 16px;
+    }
+
+    #logo-apple1{
+        display: inline !important;
+        margin-bottom: 50px;
+    }
+
+    #logo-apple1 a img{
+        margin-bottom: 20px;
+    }
+
+    #logo-apple2{
+        display: none;
+    }
+
+    .hero3{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        margin-bottom: 50px;
     }
 }
-
